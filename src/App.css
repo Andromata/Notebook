@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  border: 2px solid blueviolet;
+}
+
+.container-left{
+  display: flex;
+  border: 2px solid yellow;
+  flex-direction: column;
+  width: 30rem;
+}
+
+.search-bar{
+  border: 2px solid green;
+}
+
+.container-right{
+  position: absolute;
+  display:flex;
+  flex-direction: column;
+  border: 2px solid #444;
+  width: 100%;
+}
+
+.nota{
+  width: 100%;
+  text-align: center;
+}
