@@ -6,9 +6,9 @@ function AccForm(){
 
   return (
     <div className="acc-container">
-    <button>
-      HOLAS
-    </button>
+      <Link to="/Form">
+        <button>HOLAS</button>
+      </Link>
     </div>
   );
 }

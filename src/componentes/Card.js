@@ -1,9 +1,12 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
-export default function Card({date, tit, desc}){
+export default function Card({tit, id}){
+  
   return (
-    <div>
-      <button>{tit}</button>
-    </div>
+    <Link to= {`/nota/${id}`}>
+      <div id={id}>{tit}</div>
+    </Link>
   );
 }
+
